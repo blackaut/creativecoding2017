@@ -40,7 +40,7 @@ Podemos utilizar lo que se evalua con estos operadores directamente como la cond
 
 	boolean masQue200 = mouseX > 200;
 
-###Lógica booleana
+### Lógica booleana
 
 Podemos también combinar variables `boolean` y o expresiones que se evaluen como verdadero o falso. Esto se hace utilizando los operadores lógicos. Esto son AND (y), OR (ó), NOT (negación) y XOR (eXclusive OR) (o exclusivo).
 Al igual que los operadores aritméticos (`+`, `-`, `*` y `/`) los operadores lógicos van entre dos expresiones booleanas.
@@ -48,14 +48,14 @@ Al igual que los operadores aritméticos (`+`, `-`, `*` y `/`) los operadores l�
 
 | Nombre  | Operador | Expresión |
 | ------------ | ------------- | ------------ |
-| AND |** &&**  |Esta compara dos expresiones y entrega verdadero solo y solamente si las dos son verdaderas (`true`). 
-| OR | **\|\|** | Esta compara dos expresiones y entrega verdadero si cualquiera de las dos es verdadera. Si las dos son verdaderas tambien entrega verdadero.
+| AND | &&  |Esta compara dos expresiones y entrega verdadero solo y solamente si las dos son verdaderas (`true`). 
+| OR | \|\| | Esta compara dos expresiones y entrega verdadero si cualquiera de las dos es verdadera. Si las dos son verdaderas tambien entrega verdadero.
 | NOT | ! | Esta se usa sobre una expresion o boolean, invirtiendo su valor. 
 | XOR | ^ | Compara dos expresiones y entrega verdadero solamente si una de las dos expresiones es verdadera.
 
 **Importante** el caractér de OR es una barra vertical o (pipe en inglés). En el teclado español se encuentra apretando las teclas `alt` y `1`.
   
-####Combinatorias
+#### Combinatorias
 
 **AND**
 
