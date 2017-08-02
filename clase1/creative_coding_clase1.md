@@ -3,7 +3,7 @@
 
 Curso de creative coding (programación creativa) dictado por Roy J. Macdonald.   
 
-##CLASE 1
+## CLASE 1
 
 ## Qué es el creative coding
 
@@ -90,7 +90,7 @@ Instrucciones photoshop.
 ##### Ejercicio.
 Human fax machine.
 
-##Números
+## Números
 Como decía anteriormente el computador al final de todo utiliza números para todas sus operaciones. En la memoria del computador estos son almacenados de manera binaria, ceros y unos, que en realidad, físicamente, son una celda con o sin carga eléctrica. Principalmente existen dos tipos de números en los computadores, los enteros y los con decimal, conocidos como números de punto flotante. Si bien se podría tener un solo tipo de representación numérica esto acarrearía un alto costo computacional ya que procesar números de punto flotante es más complejo que procesar números enteros.
 
 Dentro de cada una de estas dos categorías hay diferentes tipos, que difieren en el rango de valores que pueden representar. Es decir, un número de tipo `byte`, que utiliza 8 bits de memoria, solo puede representar números enteros entre el -128 y 127. Así, un número de tipo `int`, que utiliza 32 bits (o 4 bytes) puede representar números enteros desde -2,147,483,648 hasta 2,147,483,647. El nombre de éste, `int`, proviene del inglés "integer", que literalmente significa entero.  
@@ -101,7 +101,7 @@ En el caso de los números de punto flotante, aquellos con decimales, comunmente
 
 En resumen tenemos
 
-####Números enteros
+#### Números enteros
 
 | Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
@@ -112,7 +112,7 @@ En resumen tenemos
 
 El tipo `char` se utiliza exclusivamente para representar letras y no es capaz de representar valores negativos. Cada letra es asociada a un valor según el formato [Unicode](https://unicode-table.com/es/). 
 
-####Números con decimales (punto flotante)
+#### Números con decimales (punto flotante)
 
 | Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
@@ -126,12 +126,12 @@ Processing no utiliza `double` en ninguna de sus funciones por lo cual no será 
 ### Nivel del lenguaje
 En la computación se categorizan los lenguajes de programación según su nivel. El lenguaje de nivel más bajo es el lenguaje de máquina y el más alto el lenguaje humano. El nivel no implica que uno sea mejor que otro, simplemente define su nivel de abstracción. En el nivel bajo se programan directamente los bits que indican al procesador que operación realizar y en el nivel alto estan aquellos que se asimilan al lenguaje humano, particularmente al inglés. Processing opera sobre el lenguaje Java que es considerado de alto nivel. 
 
-##Otros tipos básicos
+## Otros tipos básicos
 Además de los números podemos considerar dos tipos más de información básica, `boolean` y `string`.
 
 `boolean` es un tipo de dato que representa verdadero o falso. Solo tiene estos dos estados. Estos estados son `true` (verdadero) y `false` (falso).
  
-##Variables
+## Variables
 Para almacenar algun numero o texto debemos declararlo como una variable. Esto es básicamente darle un nombre y definir su tipo. En cursos posteriores veremos variables de tipos más complejos.
 Por ejemplo, para declarar una variable de tipo `int` y con nombre `miEntero` escribimos lo siguiente:
 
@@ -148,7 +148,7 @@ opcionalmente, podemos asignarle inmediatamente un valor a esta variable
 
 Es importante notar que siempre hay un punto y coma `;` al final de cada declaración, así como al final de cada instrucción.
 
-###Nombres de las variables
+### Nombres de las variables
 EL nombre de cada variable debe ser único, de lo contrario habrá un error. Estos son sensibles a las mayusculas y minusculas. Siempre deben comenzar con una letra, minuscula o mayuscula, y pueden tener letras, numeros, o guion bajo `_`.
 Es recomendable utilizar nombres descriptivos para las variables, asi es más sencillo comprender para que sirven mientras estamos programando.
 
@@ -157,7 +157,7 @@ Es recomendable utilizar nombres descriptivos para las variables, asi es más se
 
 
 
-####Condicionales
+#### Condicionales
 
 
 
