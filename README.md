@@ -1,3 +1,4 @@
+![image](logo_blackaut.png)
 # Curso Creative Coding 2017
 **Profesor Roy Macdonald.**
 
