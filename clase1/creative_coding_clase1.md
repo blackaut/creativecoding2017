@@ -153,16 +153,54 @@ EL nombre de cada variable debe ser único, de lo contrario habrá un error. Est
 Es recomendable utilizar nombres descriptivos para las variables, asi es más sencillo comprender para que sirven mientras estamos programando.
 
 
-### Funciones
+## Funciones
+Una función es un grupo de instrucciones. Una funcion se puede ejecutar cuantas veces uno quiera, permitiendo así reutilizar las instrucciones que ésta posee. Para que una funcion sea  más flexible y así, aun más reutilizable se le pueden "entregar" parametros a una función. Además una función puede "devoler" un resultado.
 
+Una función se define de la siguiente manera.
+
+![estructura](estructura_funcion.jpg)
+
+**Tipo de devolución:** Lo primero en la declaración de la función es el tipo de lo que devuelve, lo que ésta responde. Un tipo bastante común es `void`, que quiere decir vacio o nada, indicando que la función no devuelve nada.
+
+**Nombre de la función:** Aplican esencialmente las mismas reglas para nombrar una variable. Como una convención se comienza con una letra minuscula.
+
+**Argumentos:**
+Luego del nombre de la función se abre un paréntesis, dentro del cual se definen los argumentos. Los argumentos son la información que se le entrega a una función. Estos pueden ser de cualquier tipo y hay que darles un nombre. Para tener más de un argumento estos se separan con una coma. Al terminar esta definición de argumentos se cierra el paréntesis. Si no necesitamos entregarle información a la función simplemente se deja vacio entre paréntesis `()`.
+
+**Bloque de instrucciones:** 
+El bloque de instrucciones comienza con una llave `{` y se termina con `}`. En caso de que el tipo de devolución sea distinto a `void` se debe retornan algo al finalizar la función. Esto se hace usando la palabra `return` seguido por el elemento devolver, que debe ser del mismo tipo que lo que la función define.
+
+**Ejemplos:**
+La siguiente funcion toma 3 números, calcula su promedio y devuelve este último.
+
+	float promediar(float a, float b, float c){
+		return (a + b + c)/3;
+	}
+
+para ejecutar la función simplemente escribimos su nombre, abrimos parentesis, agregamos los argumentos que ésta espera y cerramos parentesis.
+
+	float unNumero = 13.5;
+	
+	float elPromedio = promediar(unNumero, 18.2, 10);
+	
+	println("El promedio es: " + elPromedio);
+
+Esta función necesita recibir 3 números `float`, que pueden ser una variable que le entregamos o números que introducimos directamente en el código. Para 
+
+Ya que esta función devuelve un número, entonces podemos almacenar este resultado en una nueva variable.
+
+Una función sin argumentos sería algo así:
+	
+	void imprimirFechaHora(){
+		println("La hora actual es: " + hour() + ":" + minute() + ":" + second());
+		println("La fecha de hoy es: "+ day() + "/" + month() + "/" + year());
+	}
+	
+y para llamar esta funcion es tan simple como:
+
+	imprimirFechaHora();
+	
 
 
 #### Condicionales
-
-
-
-##### Loops
-###### For
-###### While
-
 
