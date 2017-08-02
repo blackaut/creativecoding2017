@@ -87,8 +87,8 @@ Menciono el cuento de cortazar para establecer el paralelo entre el lenguaje hum
 
 ##### Ejercicio.
 Instrucciones photoshop.
-##### Ejercicio.
-Human fax machine.
+Escribir todas las instrucciones necesarias para generar la imagen de abajo utilizando Photoshop.
+![image](ejercicioPS_clase1.jpg)
 
 ## Números
 Como decía anteriormente el computador al final de todo utiliza números para todas sus operaciones. En la memoria del computador estos son almacenados de manera binaria, ceros y unos, que en realidad, físicamente, son una celda con o sin carga eléctrica. Principalmente existen dos tipos de números en los computadores, los enteros y los con decimal, conocidos como números de punto flotante. Si bien se podría tener un solo tipo de representación numérica esto acarrearía un alto costo computacional ya que procesar números de punto flotante es más complejo que procesar números enteros.
