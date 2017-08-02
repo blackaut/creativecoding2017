@@ -10,13 +10,13 @@ Pueden descargar todo este repositorio haciendo clic en el boton download o si e
 
 [Clase 1:](clase1/creative_coding_clase1.md)
 
-* [Qué_es_el_creative_coding](clase1/creative_coding_clase1.md#qué_es_el_creative_coding)
+* [Qué_es_el_creative_coding](clase1/creative_coding_clase1.md#qué-es-el-creative-coding)
 * [Referentes](clase1/creative_coding_clase1.md#referentes)
 * [Herramientas](clase1/creative_coding_clase1.md#herramientas)
-* [Nivel_del_lenguaje](clase1/creative_coding_clase1.md#nivel_del_lenguaje)
-* [Fundamentos_de_la_programación.](clase1/creative_coding_clase1.md#fundamentos_de_la_programación.)
+* [Nivel_del_lenguaje](clase1/creative_coding_clase1.md#nivel-del-lenguaje)
+* [Fundamentos_de_la_programación.](clase1/creative_coding_clase1.md#fundamentos-de-la-programación)
 * [Números](clase1/creative_coding_clase1.md#números)
-* [Otros_tipos_básicos](clase1/creative_coding_clase1.md#otros_tipos_básicos)
+* [Otros_tipos_básicos](clase1/creative_coding_clase1.md#otros-tipos-básicos)
 * [Variables](clase1/creative_coding_clase1.md#variables)
 * [Funciones](clase1/creative_coding_clase1.md#funciones)
 * [Condicionales](clase1/creative_coding_clase1.md#condicionales)
