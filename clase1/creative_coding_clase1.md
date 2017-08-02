@@ -54,7 +54,8 @@ Processing esta basado en el lenguaje de programación Java, el cual resulta ser
 
 La actual versión de Processing, la número 3, presenta muchas mejoras en relación a sus predecesores, haciendo no solo más expedito el flujo de trabajo si no que también haciendo que la aplicación que se programa corra de manera más optima.
 
-
+## Nivel del lenguaje
+En la computación se categorizan los lenguajes de programación según su nivel. El lenguaje de nivel más bajo es el lenguaje de máquina y el más alto el lenguaje humano. El nivel no implica que uno sea mejor que otro, simplemente define su nivel de abstracción. En el nivel bajo se programan directamente los bits que indican al procesador que operación realizar y en el nivel alto estan aquellos que se asimilan al lenguaje humano, particularmente al inglés. Processing opera sobre el lenguaje Java que es considerado de alto nivel. 
 
 ## Fundamentos de la programación.
 
@@ -85,7 +86,7 @@ En resumen, tenemos que:
 
 Menciono el cuento de cortazar para establecer el paralelo entre el lenguaje humano y la programación computacional. Para programar se hace uso de un lenguaje en particular, de los cuales existen muchos, el que se aprende de igual manera como uno aprendería una lengua extranjera. De igual modo que un poliglota, aprender nuevas lenguas resulta mucho mas sencillo que para aquel que solo maneja una lengua. En este sentido podemos entender la programación como otra lengua más, que utilizamos para comunicarnos con los computadores, y al ya conocer una se hace mucho mas sencillo aprender otras nuevas. 
 
-##### Ejercicio.
+### Ejercicio.
 Instrucciones photoshop.
 Escribir todas las instrucciones necesarias para generar la imagen de abajo utilizando Photoshop.
 ![image](ejercicioPS_clase1.jpg)
@@ -101,7 +102,7 @@ En el caso de los números de punto flotante, aquellos con decimales, comunmente
 
 En resumen tenemos
 
-#### Números enteros
+### Números enteros
 
 | Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
@@ -112,7 +113,7 @@ En resumen tenemos
 
 El tipo `char` se utiliza exclusivamente para representar letras y no es capaz de representar valores negativos. Cada letra es asociada a un valor según el formato [Unicode](https://unicode-table.com/es/). 
 
-#### Números con decimales (punto flotante)
+### Números con decimales (punto flotante)
 
 | Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
@@ -121,10 +122,6 @@ El tipo `char` se utiliza exclusivamente para representar letras y no es capaz d
 
 Processing no utiliza `double` en ninguna de sus funciones por lo cual no será común encontrarnos con este tipo.
 
-
-
-### Nivel del lenguaje
-En la computación se categorizan los lenguajes de programación según su nivel. El lenguaje de nivel más bajo es el lenguaje de máquina y el más alto el lenguaje humano. El nivel no implica que uno sea mejor que otro, simplemente define su nivel de abstracción. En el nivel bajo se programan directamente los bits que indican al procesador que operación realizar y en el nivel alto estan aquellos que se asimilan al lenguaje humano, particularmente al inglés. Processing opera sobre el lenguaje Java que es considerado de alto nivel. 
 
 ## Otros tipos básicos
 Además de los números podemos considerar dos tipos más de información básica, `boolean` y `string`.
@@ -170,7 +167,7 @@ Luego del nombre de la función se abre un paréntesis, dentro del cual se defin
 **Bloque de instrucciones:** 
 El bloque de instrucciones comienza con una llave `{` y se termina con `}`. En caso de que el tipo de devolución sea distinto a `void` se debe retornan algo al finalizar la función. Esto se hace usando la palabra `return` seguido por el elemento devolver, que debe ser del mismo tipo que lo que la función define.
 
-**Ejemplos:**
+#### Ejemplos:
 La siguiente funcion toma 3 números, calcula su promedio y devuelve este último.
 
 	float promediar(float a, float b, float c){
@@ -202,7 +199,7 @@ y para llamar esta funcion es tan simple como:
 	
 
 
-#### Condicionales
+## Condicionales
 
 Hasta ahora hemos visto solo como declarar cosas y escribir instrucciones que se ejecutan todas, desde la primera a la última línea, lo cual hace que el resultado siempre sea el mismo.
 Es por esto que para poder ejecutar o no instrucciones de manera arbitraria es que existen la declaraciones condicionales. En sencillo, damos la instruccion de que **si** cierta condición se cumple **entonces** se debe ejecutar *tal* grupo de instrucciones, **de lo contrario** ejecutar *tal otro*.
@@ -255,7 +252,7 @@ Se pueden utilizar cuantos `else if()` se quiera, siguiendo el mismo patrón ant
 	}
 
 
-##TAREAS
+## TAREAS
 - Revisar artistas referentes.
 - Enviar y realizar instrucciones ejercicio photoshop de otro alumno.
 - Jugar con los las instrucciones y conceptos ya aprendidas.
