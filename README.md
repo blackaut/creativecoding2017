@@ -6,7 +6,7 @@ Este es el repositorio de código y material de clases del curso.
 
 Pueden descargar todo este repositorio haciendo clic en el boton download o si es que saben utilizar git lo pueden sincronizar localmente haciendo `git clone https://github.com/blackaut/creativecoding2017.git`
 
-###Temario:
+### Temario:
 
 [Clase 1:](clase1/creative_coding_clase1.md)
 
