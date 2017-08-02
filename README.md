@@ -14,7 +14,7 @@ Pueden descargar todo este repositorio haciendo clic en el boton download o si e
 * [Referentes](clase1/creative_coding_clase1.md#referentes)
 * [Herramientas](clase1/creative_coding_clase1.md#herramientas)
 * [Nivel del lenguaje](clase1/creative_coding_clase1.md#nivel-del-lenguaje)
-* [Fundamentosde la programación.](clase1/creative_coding_clase1.md#fundamentos-de-la-programación)
+* [Fundamentos de la programación.](clase1/creative_coding_clase1.md#fundamentos-de-la-programación)
 * [Números](clase1/creative_coding_clase1.md#números)
 * [Otros tipos básicos](clase1/creative_coding_clase1.md#otros-tipos-básicos)
 * [Variables](clase1/creative_coding_clase1.md#variables)
