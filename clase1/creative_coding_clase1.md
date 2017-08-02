@@ -204,3 +204,59 @@ y para llamar esta funcion es tan simple como:
 
 #### Condicionales
 
+Hasta ahora hemos visto solo como declarar cosas y escribir instrucciones que se ejecutan todas, desde la primera a la última línea, lo cual hace que el resultado siempre sea el mismo.
+Es por esto que para poder ejecutar o no instrucciones de manera arbitraria es que existen la declaraciones condicionales. En sencillo, damos la instruccion de que **si** cierta condición se cumple **entonces** se debe ejecutar *tal* grupo de instrucciones, **de lo contrario** ejecutar *tal otro*.
+
+Noten las palabras en negritas, Si / entonces / de lo contrario, que traducidas al inglés son if / then / else. Estas palabras son las que se utilizan en la mayoria de los lenguajes de programación para hacer declaraciones condicionales. En el caso particular de Java, por tanto Processing, no se utiliza `then` ya que se asume implicitamente.
+
+![image](estructura_condicionales.jpg)
+
+La condicion a evaluar es un `boolean`, se puede utilizar una variable de este tipo
+
+	boolean condicionAEvaluar = true; // pensemos que esta condicion puede cambiar
+	if(condicionAEvaluar){
+		ellipse(100,100,100,100); //a modo de ejemplo.
+	}else{
+		rect(100,100,100,100);
+	}
+
+o hacer la evaluación directamente dentro de el `if(  )`
+
+	if(mouseX > 200){
+		fill(255,0,0);//rojo
+	}else{
+		noFill();//sin relleno
+	}
+	ellipse(100,100,100,100);
+
+También existe la figura `else if( )` donde se evalua otra condición en caso de que la anterior sea falsa.
+
+	boolean primeraCondicion = false;// pensemos que esta y la siguiente condición pueden cambiar
+	boolean segundaCondicion = true;
+	if(primeraCondicion){
+		//Instruccioneas a ejecutar si la primera condición es verdadera
+	} else if(segundaCondicion){
+		//Instrucciones a ejecutar si es que la primera condicion es falsa y la segunda es verdadera
+	}else{
+		//ejecutar si es que la primera y segunda condicion son falsas.
+	}
+Se pueden utilizar cuantos `else if()` se quiera, siguiendo el mismo patrón anterior.
+
+	if(primeraCondicion){
+
+	} else if(segundaCondicion){
+
+	} else if(terceraCondicion){
+
+	} else if(cuartaCondicion){
+	
+	}else{
+
+	}
+
+
+##TAREAS
+- Revisar artistas referentes.
+- Enviar y realizar instrucciones ejercicio photoshop de otro alumno.
+- Jugar con los las instrucciones y conceptos ya aprendidas.
+
