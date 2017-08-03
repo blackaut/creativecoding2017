@@ -1,6 +1,6 @@
 ![image](../logo_blackaut.png)
 ### CURSO CREATIVE CODING 2017
-** Curso de creative coding (programación creativa) dictado por Roy J. Macdonald.   **
+**Curso de creative coding (programación creativa) dictado por Roy J. Macdonald.   **
 
 # CLASE 2
 ## Flujo de ejecución de Processing
