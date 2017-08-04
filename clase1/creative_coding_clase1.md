@@ -104,7 +104,7 @@ En resumen tenemos
 
 ### Números enteros
 
-| Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
+| Tipo | Nombre completo | Tamaño (bits/bytes) | Mínimo | Máximo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
 | `byte` | byte | 8 bits / 1 byte  | -128 | 127|
 | `char` | character |16 bits / 2 bytes  | 0| 65.535 | 
@@ -115,7 +115,7 @@ El tipo `char` se utiliza exclusivamente para representar letras y no es capaz d
 
 ### Números con decimales (punto flotante)
 
-| Tipo | Nombre completo | Tamaño (bits/bytes) | Máximo | Mínimo |
+| Tipo | Nombre completo | Tamaño (bits/bytes) | Mínimo | Máximo |
 | ------------ | ------------ | ------------- | ------------: | ------------: |
 | `float` | floating point | 32 bits / 4 byte | -3,40282347 x 10^38 | 3,40282347 x 10^38 |
 | `double` | double precision floating point |64 bits / 8 bytes  | -1,7976931348623157 x 10^308|  1,7976931348623157 x 10^308 | 
