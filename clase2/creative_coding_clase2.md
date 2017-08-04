@@ -1,6 +1,6 @@
 ![image](../logo_blackaut.png)
 ### CURSO CREATIVE CODING 2017
-**Curso de creative coding (programación creativa) dictado por Roy J. Macdonald.   **
+**Curso de creative coding (programación creativa) dictado por Roy J. Macdonald.**
 
 # CLASE 2
 ## Flujo de ejecución de Processing
@@ -231,5 +231,9 @@ En el ejemplo anterior, el bloque de instrucciones se ejecuta 10 veces, ya que `
 
 ## Random y Noise
 
-Para generar
+Para generar números aleatorios tenemos la función `random()`. Ésta devuelve un número aleatorio distinto cada vez que  es llamada, el cual está dentro del rango de valores entregados a la función random.
+
+
+
+
 
