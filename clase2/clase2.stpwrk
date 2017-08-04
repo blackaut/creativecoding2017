@@ -1,0 +1,135 @@
+
+# CURSO CREATIVE CODING 2017 blackaut
+
+# CLASE 2
+## Flujo de ejecución de Processing
+
+	void setup(){
+		//instrucciones que solo se ejecutan una vez al iniciar el sketch.
+	}
+	
+	void draw(){
+		//instrucciones que se ejecutan constantemente.
+	}	
+
+## Control de flujo y lógica booleana.
+
+
+| Nombre  | Operador | Expresión | Comentario |
+| ------------ | ------------- | ------------ | ------------ |
+| igual que | `==`  | `mouseX == 200` | se evalua como verdadero solo si la posición en el eje x del mouse es igual a 200. de lo contrario será falso. |
+| distinto que | `!=`  | `mouseX != 200` | será verdadero si es que mouseX NO es 200 |
+| mayor que | `>`  | `mouseX > 200` | será verdadero si es que mouseX es mayor que 200 |
+| mayor o igual que | `>=`  | `mouseX >= 200` | será verdadero si es que mouseX es mayor o igual que 200 |
+| menor que | `<`  | `mouseX < 200` | será verdadero si es que mouseX es menor que 200 |
+| menor o igual que | `<=`  | `mouseX <= 200` | será verdadero si es que mouseX es menor o igual que 200 |
+
+
+
+### Lógica booleana
+
+| Nombre  | Operador | Expresión |
+| ------------ | ------------- | ------------ |
+| AND | &&  |Esta compara dos expresiones y entrega verdadero solo y solamente si las dos son verdaderas (`true`). 
+| OR | \|\| | Esta compara dos expresiones y entrega verdadero si cualquiera de las dos es verdadera. Si las dos son verdaderas tambien entrega verdadero.
+| NOT | ! | Esta se usa sobre una expresion o boolean, invirtiendo su valor. 
+| XOR | ^ | Compara dos expresiones y entrega verdadero solamente si una de las dos expresiones es verdadera.
+
+  
+#### Combinatorias
+
+**AND**
+
+| Operacion | Resultado |
+| ------------ | ------------ |
+| `true  && true` | `true` |
+| `false && true` | `false` |
+| `true  && false` | `false` |
+| `false && false` | `false` |
+
+**OR**
+
+| Operacion | Resultado |
+| ------------ | ------------ |
+| `true  \|\| true` | `true` |
+| `false \|\| true` | `true` |
+| `true  \|\| false` | `true` |
+| `false \|\| false` | `false` |
+
+**NOT**
+
+| Operacion | Resultado |
+| ------------ | ------------ |
+| `!true` | `false` | 
+| `!false` | `true` | 
+
+**XOR**
+
+| Operacion | Resultado |
+| ------------ | ------------ |
+| `true  ^ true` | `false` |
+| `false ^ true` | `true` |
+| `true  ^ false` | `true` |
+| `false ^ false` | `false` |
+
+### Paréntesis ()
+
+## Mouse
+
+### Posición mouse
+
+| Variable Global | Descripción |
+| ------------ | ------------ |
+| [`mouseX`] |  almacena la posición horizontal (eje X) del mouse |
+| [`mouseY`] |  almacena la posición vertical (eje Y) del mouse |
+
+### Botón mouse
+
+| Variable Global | Descripción |
+| ------------ | ------------ |
+| [`mousePressed`] | de tipo `boolean`. será `true` cuando algún botón del mouse está presionado  |
+| [`mouseButton`] |  Tendrá uno de los valores `LEFT`, `CENTER`, `RIGHT` (izquierda, centro, derecha respectivamente) |
+
+## Teclado
+
+| Variable Global | Descripción |
+| ------------ | ------------ |
+| [`keyPressed`] | De tipo `boolean`, será `true` cuando alguna tecla está siendo presionada |
+| [`key`] | almacena la tecla que se está presionando  |
+| [`keyCode`] | si es que la tecla presionada es una de las teclas flecha (UP, DOWN, LEFT o RIGHT ) o algun modificador como ALT, CONTROL y SHIFT, esta variable almacena cual de éstas es.| 
+
+
+## Funciones para eventos
+
+| Función | Descripción |
+| ------------ | ------------ |
+| [`void mouseClicked()`] | Se ejecuta cuando el mouse hace clic, es decir es presionado y soltado |
+| [`void mouseDragged()`] | Se ejecuta cuando el mouse se mueve y un botón está presionado. |
+| [`void mouseMoved()`] | Se ejecuta cuando el mouse se mueve y nigún botón está presionado.|
+| [`void mousePressed()`] | Se ejecuta inmediatamente al presionar un botón.|
+| [`void mouseReleased()`] | Se ejecuta cuando se deja de presionar un boton del mouse.|
+| [`void mouseWheel(MouseEvent event)`] | Se ejecuta cuando se mueve la rueda (scroll) del mouse.|
+
+
+
+## for
+
+**inicialización**
+ Se define y inicializa variable local (que pertenece al `for` y solo existe dentro de éste). Típicamente se utiliza esta variable para llevar la cuenta de la cantidad de repeticiones hechas.\n**validación** Se evalua una expresión booleana.Antes de comenzar cada repetición se evalua la validación, si ésta es `true` se ejecuta una vez las instrucciones dentro del `for`. Si es `false`, no se ejecutan las instrucciones del `for` y se termina el loop. 
+**actualización** Luego de que se termina un ciclo del `for` se actualiza alguna variable. Típicamente se incrementa el contador de repeticiones.
+	
+	for(inicialización ; validación ; actualización){
+		//bloque de instrucciones
+	}
+
+Ejemplo:
+
+	for(int i = 0; i < 10; i = i + 1){
+		//instrucciones que se ejecutan en cada repeticion.
+		println(i);
+	}
+
+## Random y Noise
+## Animación generativa.
+## Seno y coseno. Explicación didáctica.
+## Ejercicios
