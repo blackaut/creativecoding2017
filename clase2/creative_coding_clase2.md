@@ -145,7 +145,7 @@ Para acceder el estado del teclado se utilizan las siguientes variables globales
 | [`key`](https://processing.org/reference/key.html) | almacena la tecla que se está presionando  |
 | [`keyCode`](https://processing.org/reference/keyCode.html) | si es que la tecla presionada es una de las teclas flecha (UP, DOWN, LEFT o RIGHT ) o algun modificador como ALT, CONTROL y SHIFT, esta variable almacena cual de éstas es.| 
 
-Ejemplo:
+**Ejemplo:**  
 se dibujará un rectangulo con relleno negro si es que la tecla b o B está siendo presionada.
 
 	void draw() {
@@ -159,6 +159,24 @@ se dibujará un rectangulo con relleno negro si es que la tecla b o B está sien
 		rect(25, 25, 50);
 	}
 
+**Ejemplo:**  
+
+    color fillVal = color(126);    
+    void draw() {
+        fill(fillVal);
+        rect(25, 25, 50, 50);
+    }
+    void keyPressed() {
+        if (key == CODED) {
+            if (keyCode == UP) {
+                fillVal = 255;
+            } else if (keyCode == DOWN) {
+                fillVal = 0;
+            } 
+        } else {
+            fillVal = 126;
+        }
+    }
 
 ### Funciones para eventos
 Cuando alguna accion se hace con el mouse o el teclado, Processing ejecuta automáticamente una función de nuestro sketch relativa a la acción ocurrida. Para hacer uso de éstas debemos definirlas en nuestro sketch. 
@@ -175,6 +193,7 @@ Cuando alguna accion se hace con el mouse o el teclado, Processing ejecuta autom
 Todas éstas devuelven `void` y no reciben argumentos, a excepción de `mouseWheel(MouseEvent event)` que recibe un parametro de tipo `MouseEvent`.
 
 
+
 ## for
 Una de las principales ventajas que posee un computador por sobre un humano es que puede realizar la misma acción una y otra vez, muy rápidamente y sin aburrirse ni distraerse.
 
@@ -184,9 +203,12 @@ Las dos son muy similares, pero solo veremos `for` ya que el uso incorrecto de `
 
 Éste recibe 3 argumentos, inicialización, validación y actualización
 
-**inicialización** Se define y inicializa variable local (que pertenece al `for` y solo existe dentro de éste). Típicamente se utiliza esta variable para llevar la cuenta de la cantidad de repeticiones hechas.
-**validación** Se evalua una expresión booleana.Antes de comenzar cada repetición se evalua la validación, si ésta es `true` se ejecuta una vez las instrucciones dentro del `for`. Si es `false`, no se ejecutan las instrucciones del `for` y se termina el loop. 
-**actualización** Luego de que se termina un ciclo del `for` se actualiza alguna variable. Típicamente se incrementa el contador de repeticiones.
+**inicialización**  
+ Se define y inicializa variable local (que pertenece al `for` y solo existe dentro de éste). Típicamente se utiliza esta variable para llevar la cuenta de la cantidad de repeticiones hechas.   
+**validación**  
+Se evalua una expresión booleana.Antes de comenzar cada repetición se evalua la validación, si ésta es `true` se ejecuta una vez las instrucciones dentro del `for`. Si es `false`, no se ejecutan las instrucciones del `for` y se termina el loop.    
+**actualización**  
+Luego de que se termina un ciclo del `for` se actualiza alguna variable. Típicamente se incrementa el contador de repeticiones.
 
 
 este tiene la siguiente forma
@@ -195,7 +217,7 @@ este tiene la siguiente forma
 		//bloque de instrucciones
 	}
 
-Ejemplo:
+**Ejemplo:**
 
 	for(int i = 0; i < 10; i = i + 1){
 		//instrucciones que se ejecutan en cada repeticion.
@@ -205,7 +227,9 @@ Ejemplo:
 En el ejemplo anterior, el bloque de instrucciones se ejecuta 10 veces, ya que `i` comienza con valor 0 y luego de cada repetición este aumenta su valor en 1. En la última repetición que se ejecuta `i` tiene un valor igual a 9, al terminar esta repetición, `i` se incrementa en 1, quedando 10, y la condicion a evaluar en la validación pasa a ser `false`, así terminando el `for`. 
 
 
+
+
 ## Random y Noise
-## Animación generativa.
-## Seno y coseno. Explicación didáctica.
-## Ejercicios
+
+Para generar
+
