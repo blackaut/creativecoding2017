@@ -34,7 +34,7 @@ Clase 2:
 * * [Posición](clase2/creative_coding_clase2.md#posición)
 * * [Botón](clase2/creative_coding_clase2.md#botón)
 * [Teclado](clase2/creative_coding_clase2.md#teclado)
-* [Funciones para eventos mouse y teclado](clase2/creative_coding_clase2.md#funciones-para-eventos-mouse-y-teclado)
+* [Funciones para eventos mouse y teclado](clase2/creative_coding_clase2.md#funciones-para-eventos)
 * [for](clase2/creative_coding_clase2.md#for)
 * [Random y Noise](clase2/creative_coding_clase2.md#random-y-noise)
 
