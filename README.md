@@ -25,37 +25,40 @@ Pueden descargar todo este repositorio haciendo clic en el boton download o si e
 
 Clase 2:
 
-* Flujo de ejecución de Processing
-* Control de flujo y lógica booleana.
-* Animación generativa.
-* Seno y coseno. Explicación didáctica.
-* Random y Noise
-* Ejercicios
+* [Flujo de ejecución de Processing](clase3/creative_coding_clase3.md#Flujo_de_ejecución_de_Processing)
+* [Control de flujo y lógica booleana.](clase3/creative_coding_clase3.md#Control_de_flujo_y_lógica_booleana.)
+* * [Lógica booleana](clase3/creative_coding_clase3.md#Lógica_booleana)
+* * [Combinatorias](clase3/creative_coding_clase3.md#Combinatorias)
+* * [Paréntesis](clase3/creative_coding_clase3.md#Paréntesis)
+* [Mouse](clase3/creative_coding_clase3.md#Mouse)
+* * [Posición](clase3/creative_coding_clase3.md#Posición)
+* * [Botón](clase3/creative_coding_clase3.md#Botón)
+* [Teclado](clase3/creative_coding_clase3.md#Teclado)
+* [Funciones para eventos mouse y teclado](clase3/creative_coding_clase3.md#Funciones_para_eventos_mouse_y_teclado)
+* [for](clase3/creative_coding_clase3.md#for)
+* [Random y Noise](clase3/creative_coding_clase3.md#Random_y_Noise)
 
-Clase 2:
-
-* Imagenes y pixeles.
-* Manipulación de pixeles.		
-* Funciones
-* Librerias				
-* Ejercicios
-				
 Clase 3:
 
-* Interacción con mouse y teclado
-* Espacio tridimensional.
-* Dibujo 3D
-* Otros dispositivos de entrada: webcam y sonido.
+* Variables y su ámbito. 
+* Seno y coseno. 
+* * Explicación didáctica.
+* * Animacion con seno y coseno
+* Animación generativa.
 * Ejercicios
-	
+				
 Clase 4:
 
-* Comunicación con otros programas.
-* OSC y MIDI
-* Compartir video en tiempo real con otras aplicaciones mediante Syphon o Spout.
-* GUI (Interfaz gráfica de usuario)
+* Color
+* Módulo
+* Imagenes y pixeles.
+* Manipulación de pixeles.		
+* Librerias				
+* GUI (Interfaz gráfica de usuario) 
+* Espacio tridimensional.
+* Dibujo 3D
 * Ejercicios
-
+	
 Clase 5:
 
 * Clases y Objetos.
@@ -63,18 +66,11 @@ Clase 5:
 * Matemática vectorial.
 * Sistemas de partículas.
 * Recursion
-		
-Clase 6: 
+	
+Clase 6:
 
-* Vision Computacional (Open Cv)
-* Face tracker
-* Optical Flow
-* Trackeo de objetos de colores
-* Camara IR
-* Kinect
-
-Clase 7:
-
+* Comunicación con otros programas.
+* OSC y MIDI
 * Manipulación de sonido.
 * Análisis de audio. FFT y Detección de frecuencia.
 * Sintesis FM y AM
@@ -82,14 +78,19 @@ Clase 7:
 * Loops de audio.
 * Secuenciador de pasos. (Step sequencer)
 
-Clase 7:
+* Ejercicios
+		
+Clase 7: 
 
-* Arduino / Physical Computing
-* IDE Arduino
-* Ejercicios básicos de arduino.
-* Comunicación con Processing.
+* Vision Computacional (Open Cv)
+* Face tracker
+* Optical Flow
+* Trackeo de objetos de colores
+* Camara IR
+* Kinect
+* Compartir video en tiempo real con otras aplicaciones mediante Syphon o Spout.
 
-Clase 8: 
+Clase 8:
 
 * Integración de todo lo aprendido
 * Taller de experimentación
