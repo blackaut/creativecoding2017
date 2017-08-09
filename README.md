@@ -25,18 +25,18 @@ Pueden descargar todo este repositorio haciendo clic en el boton download o si e
 
 Clase 2:
 
-* [Flujo de ejecución de Processing](clase2/creative_coding_clase2.md#Flujo_de_ejecución_de_Processing)
-* [Control de flujo y lógica booleana.](clase2/creative_coding_clase2.md#Control_de_flujo_y_lógica_booleana.)
-* * [Lógica booleana](clase2/creative_coding_clase2.md#Lógica_booleana)
-* * [Combinatorias](clase2/creative_coding_clase2.md#Combinatorias)
-* * [Paréntesis](clase2/creative_coding_clase2.md#Paréntesis)
-* [Mouse](clase2/creative_coding_clase2.md#Mouse)
-* * [Posición](clase2/creative_coding_clase2.md#Posición)
-* * [Botón](clase2/creative_coding_clase2.md#Botón)
-* [Teclado](clase2/creative_coding_clase2.md#Teclado)
-* [Funciones para eventos mouse y teclado](clase2/creative_coding_clase2.md#Funciones_para_eventos_mouse_y_teclado)
+* [Flujo de ejecución de Processing](clase2/creative_coding_clase2.md#flujo-de-ejecución-de-processing)
+* [Control de flujo y lógica booleana.](clase2/creative_coding_clase2.md#control-de-flujo-y-lógica-booleana)
+* * [Lógica booleana](clase2/creative_coding_clase2.md#lógica-booleana)
+* * [Combinatorias](clase2/creative_coding_clase2.md#combinatorias)
+* * [Paréntesis](clase2/creative_coding_clase2.md#paréntesis)
+* [Mouse](clase2/creative_coding_clase2.md#mouse)
+* * [Posición](clase2/creative_coding_clase2.md#posición)
+* * [Botón](clase2/creative_coding_clase2.md#botón)
+* [Teclado](clase2/creative_coding_clase2.md#teclado)
+* [Funciones para eventos mouse y teclado](clase2/creative_coding_clase2.md#funciones-para-eventos-mouse-y-teclado)
 * [for](clase2/creative_coding_clase2.md#for)
-* [Random y Noise](clase2/creative_coding_clase2.md#Random_y_Noise)
+* [Random y Noise](clase2/creative_coding_clase2.md#random-y-noise)
 
 Clase 3:
 
