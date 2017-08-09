@@ -104,7 +104,7 @@ Processing define algunas variables globales tanto para el mouse como el teclado
 Éstas se actualizan cada vez que existe un evento de mouse o teclado.
 
 ### Mouse
-####Posición
+#### Posición
 Podemos acceder a la posición del mouse en cualquier momento durante la ejecución de nuestro sketch, por medio de las variables globales.
 
 | Variable Global | Descripción |
