@@ -189,6 +189,8 @@ Cuando alguna accion se hace con el mouse o el teclado, Processing ejecuta autom
 | [`void mousePressed()`](https://processing.org/reference/mousePressed_.html) | Se ejecuta inmediatamente al presionar un botón.|
 | [`void mouseReleased()`](https://processing.org/reference/mouseReleased_.html) | Se ejecuta cuando se deja de presionar un boton del mouse.|
 | [`void mouseWheel(MouseEvent event)`](https://processing.org/reference/mouseWheel_.html) | Se ejecuta cuando se mueve la rueda (scroll) del mouse.|
+| [`void keyPressed()`](https://processing.org/reference/keyPressed_.html) | Se ejecuta cuando una tecla es presionada |
+| [`void keyReleased()`](https://processing.org/reference/keyReleased_.html) | Se ejecuta cuando se suelta una tecla |
 
 Todas éstas devuelven `void` y no reciben argumentos, a excepción de `mouseWheel(MouseEvent event)` que recibe un parametro de tipo `MouseEvent`.
 
