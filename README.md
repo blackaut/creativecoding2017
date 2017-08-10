@@ -51,6 +51,7 @@ Clase 4:
 
 * Color
 * Módulo
+* Xeno
 * Imagenes y pixeles.
 * Manipulación de pixeles.		
 * Librerias				
