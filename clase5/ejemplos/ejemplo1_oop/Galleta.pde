@@ -2,7 +2,8 @@
 class Galleta{
   //ingrediente
   int numChips;
-  private int posX, posY;
+  //int posX, posY;
+  vector pos;
   float tamano;
   Chip chips [];
   color colorChips;
