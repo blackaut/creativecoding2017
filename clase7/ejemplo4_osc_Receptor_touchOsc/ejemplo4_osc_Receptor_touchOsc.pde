@@ -4,7 +4,7 @@ OscP5 oscP5;
 int mouseOscX, mouseOscY;
 void setup() {
   size(400,400);
-    oscP5 = new OscP5(this,12345);//puerto que recibe  
+    oscP5 = new OscP5(this,12000);//puerto que recibe  
 }
 void draw() {
   background(0);  
@@ -13,7 +13,7 @@ void draw() {
 
 void oscEvent(OscMessage theOscMessage) {
   if(theOscMessage.checkAddrPattern("/3/xy")==true) {
-      mouseOscX = (int)theOscMessage.get(0).floatValue();
-      mouseOscY = (int)theOscMessage.get(1).floatValue();
+      mouseOscX = (int)(theOscMessage.get(0).floatValue()*width);
+      mouseOscY = (int)(theOscMessage.get(1).floatValue()*height);
   }
 }

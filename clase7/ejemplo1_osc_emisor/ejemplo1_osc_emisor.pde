@@ -14,11 +14,13 @@ void setup() {
 void draw() {
   background(0);  
 }
-
-void mousePressed() {
+void mouseMoved(){
   OscMessage myMessage = new OscMessage("/mouse");  
   myMessage.add(mouseX); /* add an int to the osc message */
   myMessage.add(mouseY);
   oscP5.send(myMessage, myRemoteLocation); 
+}
+void mousePressed() {
+
  
 }
